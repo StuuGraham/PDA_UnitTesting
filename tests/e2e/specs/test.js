@@ -19,7 +19,7 @@ it('Should update the display at the running total when number buttons pressed',
   cy.get('.display').should('contain', '1995');
 });
 
-it('should show 7 in the running total when pressing 5 + 5 then =', () => {
+it('should show 7 in the running total when pressing 2 + 5 then =', () => {
   cy.get('#number2').click();
   cy.get('#operator_add').click();
   cy.get('#number5').click();
